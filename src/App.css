@@ -1,0 +1,93 @@
+body{
+  background: rgba(169, 169, 169, 0.78);
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-section{
+  background: transparent;
+  max-width: 600px;
+  width: 90%;
+  height: 600px;
+  margin: 30px auto;
+
+}
+
+.clock-holder{
+  width: 100%;
+  background: rgba(255, 255, 255, 0.83);
+  margin: 30px auto;
+  position: relative;
+
+}
+.stopwatch{
+  padding: 60px 0px;
+  text-align: center;
+}
+
+.stopwatch span{
+  background: #026c6c;
+  color: white;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 22px;
+  padding: 20px;
+  width: 175px;
+  border-radius: 5px;
+}
+
+.stopwatch .stopwatch-btn{
+  background: white;
+  margin-top: 30px;
+  margin-left: 15px;
+  border: none;
+  padding: 3px 3px;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 110px;
+  height: 30px;
+  transition: background 600ms;
+  cursor: pointer;
+}
+
+.stopwatch .stopwatch-btn-red{
+  border: 2px solid red;
+  color: darkred;
+}
+.stopwatch .stopwatch-btn-yel{
+  border: 2px solid yellow;
+  color: yellowgreen;
+}
+.stopwatch .stopwatch-btn-gre{
+  border: 2px solid green;
+  color: darkgreen;
+}
+.stopwatch .stopwatch-btn-blu{
+  border: 2px solid blue;
+  color: darkblue;
+}
+
+.stopwatch .stopwatch-btn-red:hover{
+  background: rgba(255, 0, 0, 0.77);
+  border: 2px solid rgba(255, 0, 0, 0.77);
+  color: rgba(139, 0, 0, 0.76);
+}
+.stopwatch .stopwatch-btn-yel:hover{
+  background: rgba(255, 255, 0, 0.77);
+  border: 2px solid rgba(255, 255, 0, 0.77);
+  color: rgba(154, 205, 50, 0.8);
+}
+.stopwatch .stopwatch-btn-gre:hover{
+  background:rgba(0, 128, 0, 0.8) ;
+  border: 2px solid rgba(0, 128, 0, 0.8);
+  color: rgba(0, 100, 0, 0.82);
+}
+.stopwatch .stopwatch-btn-blu:hover{
+  background: rgba(0, 0, 255, 0.82);
+  border: 2px solid rgba(0, 0, 255, 0.82);
+  color: rgba(0, 0, 139, 0.8);
+}
